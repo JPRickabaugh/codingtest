@@ -36,6 +36,12 @@
   margin-left: 10px;
 }
 
+.menuitem:hover {
+  background-image: url("../img/thumbs-up.jpg");
+  background-position: center;
+  background-size: contain;
+}
+
 #sidebar {
   grid-area: side;
   border: 1px solid black;
@@ -100,7 +106,8 @@
 }
 
 #offscreen-nav{
-  position:absolute; //change to fixed per scott
+  display: none;
+  position:fixed;
   top:0;
   right:0;
   width:0px;
@@ -109,11 +116,13 @@
   transition: 0.5s ease;
   font-size: 1.5em;
   font-family: Helvetica;
+  padding: 15px;
 }
 
 #close{
   float:left;
   margin: 20px;
   color:red;
+  cursor: pointer;
  }
 }

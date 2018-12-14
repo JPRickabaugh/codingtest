@@ -6,23 +6,23 @@
 
 4. Initialize a LOCAL Git repo and make a commit with the message ‘Built the grid’ ✓
 
-5. Add four menu items to your #header, matching the design in menu-items.png
+5. Add four menu items to your #header, matching the design in menu-items.png ✓
 
-6. Make another local commit with the message, ‘Added the menu items’
+6. Make another local commit with the message, ‘Added the menu items’ ✓
 
-7. Using CSS, make the menu items change to the background image (thumbs-up.jpg) on hover. The images should be contained and centered nicely.
+7. Using CSS, make the menu items change to the background image (thumbs-up.jpg) on hover. The images should be contained and centered nicely. ✓
 
-8. Using either jQuery or vanilla JS, make the #offscreen-nav appear when you click the hamburger button and close when you click the X. Note: For each JS problem, please include a comment at the top of your code block to indicate that it's the solution to the problem, e.g., //Answer to Problem 8.
+8. Using either jQuery or vanilla JS, make the #offscreen-nav appear when you click the hamburger button and close when you click the X. Note: For each JS problem, please include a comment at the top of your code block to indicate that it's the solution to the problem, e.g., //Answer to Problem 8. ✓
 
-9. Meet Brenda. Brenda is 20 years old. Right now, she is happy, and if she’s happy when meets someone, she says hello to that person. If she’s unhappy, she tells that person to bug off. Make a JS object called ‘student’ that represents all of the things I just said. Console log her name.
+9. Meet Brenda. Brenda is 20 years old. Right now, she is happy, and if she’s happy when meets someone, she says hello to that person. If she’s unhappy, she tells that person to bug off. Make a JS object called ‘student’ that represents all of the things I just said. Console log her name. ✓
 
 10. Brenda is unhappy today, and she meets a man named Steve. Use the object you just created to alert her message to Steve.
 
 11. Make a third commit with the message, ‘Finished the Brenda problem.'
 
-12. Write and use a function that multiples any two given numbers and logs the result.
+12. Write and use a function that multiples any two given numbers and logs the result. ✓
 
-13. Load the data from nations.json asynchronously and log the data to your console.
+13. Load the data from nations.json asynchronously and log the data to your console. ✓
 
 14. Now, loop through the data to build HTML content. The HTML should show the names of all the nations with more than 400 airports. It does not need to be in list format. Display the HTML content in the div #main-top-panel.
 
