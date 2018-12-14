@@ -2,9 +2,9 @@
 
 2. In your JS file, you'll see a function called foo(). It's broken. Fix it. You shouldn't need to add any new lines of code. ✓
 
-3. Open Desktop.png and Mobile.png from your images folder. Build those designs as closely as possible. I’ve already laid out the HTML for you. You just need to create the Grid in your CSS. 
+3. Open Desktop.png and Mobile.png from your images folder. Build those designs as closely as possible. I’ve already laid out the HTML for you. You just need to create the Grid in your CSS. ✓
 
-4. Initialize a LOCAL Git repo and make a commit with the message ‘Built the grid’
+4. Initialize a LOCAL Git repo and make a commit with the message ‘Built the grid’ ✓
 
 5. Add four menu items to your #header, matching the design in menu-items.png
 
