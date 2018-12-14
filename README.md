@@ -28,4 +28,4 @@
 
 15. Make another local commit with the message, ‘Looped through the JSON data.’ ✓
 
-16. Push this app to a remote GitHub repo. Paste the link in Sakai (if you are unable to push to GitHub, zip the app folder and upload to Sakai).
+16. Push this app to a remote GitHub repo. Paste the link in Sakai (if you are unable to push to GitHub, zip the app folder and upload to Sakai). ✓

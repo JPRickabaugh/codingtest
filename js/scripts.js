@@ -51,7 +51,7 @@ $(function(){
   var num1 = 7
   var num2 = 8
   function multi(){
-    var product = num1 * num2
+    var product = num1 * num2;
     console.log(product)
   }
   multi();
