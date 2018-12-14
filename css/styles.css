@@ -1,0 +1,107 @@
+@supports (grid-area:auto) {
+
+
+/*CREATE YOUR GRID HERE*/
+#site {
+  display: grid;
+  width: 100%;
+  height: 98vh;
+  padding: 0px;
+  margin: 0px;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 15% 35% 35% 15%;
+  grid-template-areas:
+  "head head head head"
+  "side mtop mtop mtop"
+  "side mbot mbot mbot"
+  "foot foot foot foot";
+}
+
+#header {
+  grid-area: head;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+#sidebar {
+  grid-area: side;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+#main-top-panel {
+  grid-area: mtop;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+#main-bottom-panel {
+  grid-area: mbot;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+#footer {
+  grid-area: foot;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+}
+@media screen and (max-width:768px) { /*mobile size*/
+  #site{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    padding: 0px;
+    margin: 0px;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    grid-template-rows: 10% 30% 25% 25% 10%;
+    grid-template-areas:
+    "head"
+    "side"
+    "mtop"
+    "mbot"
+    "foot";
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*OFFSCREEN NAV*/
+#burger{
+  position: absolute;
+  top:10px;
+  right:20px;
+  cursor: pointer;
+  width:25px;
+}
+
+#offscreen-nav{
+  position:absolute;
+  top:0;
+  right:0;
+  width:0px;
+  background: #ffffff;
+  height:100%;
+  transition: 0.5s ease;
+  font-size: 1.5em;
+  font-family: Helvetica;
+}
+
+#close{
+  float:left;
+  margin: 20px;
+  color:red;
+ }
+}
